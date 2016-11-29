@@ -19,6 +19,7 @@ html {
   /* Sets base font-size to 10px. For 18px, use 1.8rem, and so on. */ }
 
 body {
+  margin:0;
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   font-size: 1.6rem;
   line-height: 1.4;
@@ -97,6 +98,113 @@ aside h2 {
 
 .light {
   font-weight: 300; }
+
+#container{
+  width: 100%;
+}
+.filter-list{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.recipeList{
+  text-align: center;
+  list-style-type: none;}
+
+.headerPhoto{
+  height: 200px;
+  background-image:url("/dist/thanksgiving.jpg");
+  background-position: center;
+  background-repeat: repeat-x;
+  padding-top: 55px;
+}
+#headerTitle{
+  text-align: center;
+  color:white;
+  text-shadow: 2px 2px #222;
+}
+.searchBar{
+  width:100%;
+  height: 53px;
+  background-color: #f93f23;
+  margin: 0px;
+}
+.magnifyingGlass{
+  height: 13px;
+  margin-top: 9px;
+}
+.searchSpan{
+  background-color: white;
+  height: 33px;
+  display: inline-block;
+  padding-left: 6px;
+}
+.searchBox{
+    display:block;
+    margin: auto;
+    height:40px;
+    width: 270px;
+}
+.searchContainer{
+  height: 100%;
+  width: 100%;
+  padding-top: 10px;
+
+}
+.recipeSearch{
+  height:33px;
+  width: 250px;
+  border:none;
+  padding: 0px;
+  padding-left: 10px;
+  margin: 0px;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.4;
+  font-weight: 400;
+  color: #555; 
+
+}
+.recipeMeal{
+  display: inline-block;
+  background-color: white;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  margin-right: 15px;
+  margin-left: 3px;
+}
+.recipeAllergy{
+  background-color: white;
+  display: inline-block;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+.categoryBar{
+  width:100%;
+  height: 25px;
+  background-color: #555;
+  margin: 0px;
+}
+.categoryBox{
+  display:block;
+  margin: auto;
+  width:250px;
+}
+li{
+  position: relative;
+  display: inline-block;
+  width: 220px;
+  height: 150px;
+  border: 2px solid #ccc;
+  margin-top: 4%;
+  margin-right: 4%;
+  text-align: center;
+}
+li:hover{
+  border: 2px solid #222;
+}
+body{
+  margin: 0px;
+}
 
 footer {
   margin-top: 120px;

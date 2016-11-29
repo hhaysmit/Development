@@ -1,8 +1,10 @@
 var React                   = require('react');
 var ReactDOM                = require('react-dom');
-var ColorComponent 		 	= require("./components/ColorComponent.jsx");
+var RecipeComponent 		 = require("./components/RecipeComponent.jsx");
+
+
 
 ReactDOM.render(
-	<ColorComponent color="green" />, // not html!!
+	<RecipeComponent/>, 
 	document.getElementById('container')
 );
